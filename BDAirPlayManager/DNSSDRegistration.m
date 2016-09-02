@@ -194,7 +194,7 @@ static void RegisterReplyCallback(
                 NSDictionary *txtRecord = obj.txtRecord;
                 char rdata[1024];
                 int index = 0;
-                for (NSString *key in txtRecord) {
+                for (NSString *key in txtRecord.allKeys) {
                     NSString *keyValuePair = [NSString stringWithFormat:@"%@=%@", key, txtRecord[key]];
                     index += sprintf(rdata + index, "%c%s", (int)[keyValuePair length], [keyValuePair UTF8String]);
                 }
