@@ -80,7 +80,7 @@ typedef NS_ENUM(NSUInteger, DNSSDRegistrationStatus) {
     
     NSDictionary *videoTXT = @{
                                @"deviceid": _deviceID,
-                               @"features": @"0x0A7FEFF0",
+                               @"features": @"0x0A7FEFF3",
                                @"flags": @"0x4",
                                @"model": @"AppleTV3,2",
                                @"srcvers": @"220.68",
@@ -92,7 +92,7 @@ typedef NS_ENUM(NSUInteger, DNSSDRegistrationStatus) {
                                @"cn": @"0,1,3",
                                @"da": @"true",
                                @"et": @"0,3,5",
-                               @"ft": @"0x0A7FEFF0",
+                               @"ft": @"0x0A7FEFF3",
                                @"md": @"0,1,2",
                                @"tp": @"UDP",
                                @"vn": @"65537",
