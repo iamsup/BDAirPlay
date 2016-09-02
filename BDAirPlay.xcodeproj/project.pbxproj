@@ -1,0 +1,917 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		923AD11D1D75A90400190115 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 923AD11C1D75A90400190115 /* main.m */; };
+		923AD1201D75A90400190115 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 923AD11F1D75A90400190115 /* AppDelegate.m */; };
+		923AD1231D75A90400190115 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 923AD1221D75A90400190115 /* ViewController.m */; };
+		923AD1261D75A90400190115 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 923AD1241D75A90400190115 /* Main.storyboard */; };
+		923AD1281D75A90400190115 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 923AD1271D75A90400190115 /* Assets.xcassets */; };
+		923AD12B1D75A90400190115 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 923AD1291D75A90400190115 /* LaunchScreen.storyboard */; };
+		923AD1361D75A90400190115 /* BDAirPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 923AD1351D75A90400190115 /* BDAirPlayTests.m */; };
+		923AD1411D75A90400190115 /* BDAirPlayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 923AD1401D75A90400190115 /* BDAirPlayUITests.m */; };
+		923AD1521D75AD6600190115 /* BDAirPlayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 923AD1511D75AD6600190115 /* BDAirPlayManager.m */; };
+		923AD1581D76BBBD00190115 /* DNSSDRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = 923AD1571D76BBBD00190115 /* DNSSDRegistration.m */; };
+		929228D11D78444500CF212B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 929228D01D78444500CF212B /* AppDelegate.m */; };
+		929228D41D78444500CF212B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 929228D31D78444500CF212B /* main.m */; };
+		929228D71D78444500CF212B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 929228D61D78444500CF212B /* ViewController.m */; };
+		929228D91D78444500CF212B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 929228D81D78444500CF212B /* Assets.xcassets */; };
+		929228DC1D78444500CF212B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929228DA1D78444500CF212B /* Main.storyboard */; };
+		929228E71D78444500CF212B /* BDAirPlay_MacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 929228E61D78444500CF212B /* BDAirPlay_MacTests.m */; };
+		929228F21D78444500CF212B /* BDAirPlay_MacUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 929228F11D78444500CF212B /* BDAirPlay_MacUITests.m */; };
+		929228FF1D78456900CF212B /* BDAirPlayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 923AD1511D75AD6600190115 /* BDAirPlayManager.m */; };
+		929229001D78456C00CF212B /* DNSSDRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = 923AD1571D76BBBD00190115 /* DNSSDRegistration.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		923AD1321D75A90400190115 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 923AD1101D75A90400190115 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 923AD1171D75A90400190115;
+			remoteInfo = BDAirPlay;
+		};
+		923AD13D1D75A90400190115 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 923AD1101D75A90400190115 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 923AD1171D75A90400190115;
+			remoteInfo = BDAirPlay;
+		};
+		929228E31D78444500CF212B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 923AD1101D75A90400190115 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 929228CC1D78444500CF212B;
+			remoteInfo = "BDAirPlay-Mac";
+		};
+		929228EE1D78444500CF212B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 923AD1101D75A90400190115 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 929228CC1D78444500CF212B;
+			remoteInfo = "BDAirPlay-Mac";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		923AD1181D75A90400190115 /* BDAirPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BDAirPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		923AD11C1D75A90400190115 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		923AD11E1D75A90400190115 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		923AD11F1D75A90400190115 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		923AD1211D75A90400190115 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		923AD1221D75A90400190115 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		923AD1251D75A90400190115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		923AD1271D75A90400190115 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		923AD12A1D75A90400190115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		923AD12C1D75A90400190115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		923AD1311D75A90400190115 /* BDAirPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BDAirPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		923AD1351D75A90400190115 /* BDAirPlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDAirPlayTests.m; sourceTree = "<group>"; };
+		923AD1371D75A90400190115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		923AD13C1D75A90400190115 /* BDAirPlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BDAirPlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		923AD1401D75A90400190115 /* BDAirPlayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDAirPlayUITests.m; sourceTree = "<group>"; };
+		923AD1421D75A90400190115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		923AD1501D75AD6600190115 /* BDAirPlayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDAirPlayManager.h; sourceTree = "<group>"; };
+		923AD1511D75AD6600190115 /* BDAirPlayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDAirPlayManager.m; sourceTree = "<group>"; };
+		923AD1561D76BBBD00190115 /* DNSSDRegistration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNSSDRegistration.h; sourceTree = "<group>"; };
+		923AD1571D76BBBD00190115 /* DNSSDRegistration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNSSDRegistration.m; sourceTree = "<group>"; };
+		929228CD1D78444500CF212B /* BDAirPlay-Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BDAirPlay-Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		929228CF1D78444500CF212B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		929228D01D78444500CF212B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		929228D31D78444500CF212B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		929228D51D78444500CF212B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		929228D61D78444500CF212B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		929228D81D78444500CF212B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		929228DB1D78444500CF212B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		929228DD1D78444500CF212B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		929228E21D78444500CF212B /* BDAirPlay-MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BDAirPlay-MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		929228E61D78444500CF212B /* BDAirPlay_MacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDAirPlay_MacTests.m; sourceTree = "<group>"; };
+		929228E81D78444500CF212B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		929228ED1D78444500CF212B /* BDAirPlay-MacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BDAirPlay-MacUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		929228F11D78444500CF212B /* BDAirPlay_MacUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDAirPlay_MacUITests.m; sourceTree = "<group>"; };
+		929228F31D78444500CF212B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		923AD1151D75A90400190115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923AD12E1D75A90400190115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923AD1391D75A90400190115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929228CA1D78444500CF212B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929228DF1D78444500CF212B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929228EA1D78444500CF212B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		923AD10F1D75A90400190115 = {
+			isa = PBXGroup;
+			children = (
+				929228FE1D7844F600CF212B /* BDAirPlayManager */,
+				923AD11A1D75A90400190115 /* BDAirPlay */,
+				923AD1341D75A90400190115 /* BDAirPlayTests */,
+				923AD13F1D75A90400190115 /* BDAirPlayUITests */,
+				929228CE1D78444500CF212B /* BDAirPlay-Mac */,
+				929228E51D78444500CF212B /* BDAirPlay-MacTests */,
+				929228F01D78444500CF212B /* BDAirPlay-MacUITests */,
+				923AD1191D75A90400190115 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		923AD1191D75A90400190115 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				923AD1181D75A90400190115 /* BDAirPlay.app */,
+				923AD1311D75A90400190115 /* BDAirPlayTests.xctest */,
+				923AD13C1D75A90400190115 /* BDAirPlayUITests.xctest */,
+				929228CD1D78444500CF212B /* BDAirPlay-Mac.app */,
+				929228E21D78444500CF212B /* BDAirPlay-MacTests.xctest */,
+				929228ED1D78444500CF212B /* BDAirPlay-MacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		923AD11A1D75A90400190115 /* BDAirPlay */ = {
+			isa = PBXGroup;
+			children = (
+				923AD11E1D75A90400190115 /* AppDelegate.h */,
+				923AD11F1D75A90400190115 /* AppDelegate.m */,
+				923AD1211D75A90400190115 /* ViewController.h */,
+				923AD1221D75A90400190115 /* ViewController.m */,
+				923AD1241D75A90400190115 /* Main.storyboard */,
+				923AD1271D75A90400190115 /* Assets.xcassets */,
+				923AD1291D75A90400190115 /* LaunchScreen.storyboard */,
+				923AD12C1D75A90400190115 /* Info.plist */,
+				923AD11B1D75A90400190115 /* Supporting Files */,
+			);
+			path = BDAirPlay;
+			sourceTree = "<group>";
+		};
+		923AD11B1D75A90400190115 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				923AD11C1D75A90400190115 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		923AD1341D75A90400190115 /* BDAirPlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				923AD1351D75A90400190115 /* BDAirPlayTests.m */,
+				923AD1371D75A90400190115 /* Info.plist */,
+			);
+			path = BDAirPlayTests;
+			sourceTree = "<group>";
+		};
+		923AD13F1D75A90400190115 /* BDAirPlayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				923AD1401D75A90400190115 /* BDAirPlayUITests.m */,
+				923AD1421D75A90400190115 /* Info.plist */,
+			);
+			path = BDAirPlayUITests;
+			sourceTree = "<group>";
+		};
+		929228CE1D78444500CF212B /* BDAirPlay-Mac */ = {
+			isa = PBXGroup;
+			children = (
+				929228CF1D78444500CF212B /* AppDelegate.h */,
+				929228D01D78444500CF212B /* AppDelegate.m */,
+				929228D51D78444500CF212B /* ViewController.h */,
+				929228D61D78444500CF212B /* ViewController.m */,
+				929228D81D78444500CF212B /* Assets.xcassets */,
+				929228DA1D78444500CF212B /* Main.storyboard */,
+				929228DD1D78444500CF212B /* Info.plist */,
+				929228D21D78444500CF212B /* Supporting Files */,
+			);
+			path = "BDAirPlay-Mac";
+			sourceTree = "<group>";
+		};
+		929228D21D78444500CF212B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				929228D31D78444500CF212B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		929228E51D78444500CF212B /* BDAirPlay-MacTests */ = {
+			isa = PBXGroup;
+			children = (
+				929228E61D78444500CF212B /* BDAirPlay_MacTests.m */,
+				929228E81D78444500CF212B /* Info.plist */,
+			);
+			path = "BDAirPlay-MacTests";
+			sourceTree = "<group>";
+		};
+		929228F01D78444500CF212B /* BDAirPlay-MacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				929228F11D78444500CF212B /* BDAirPlay_MacUITests.m */,
+				929228F31D78444500CF212B /* Info.plist */,
+			);
+			path = "BDAirPlay-MacUITests";
+			sourceTree = "<group>";
+		};
+		929228FE1D7844F600CF212B /* BDAirPlayManager */ = {
+			isa = PBXGroup;
+			children = (
+				923AD1501D75AD6600190115 /* BDAirPlayManager.h */,
+				923AD1511D75AD6600190115 /* BDAirPlayManager.m */,
+				923AD1561D76BBBD00190115 /* DNSSDRegistration.h */,
+				923AD1571D76BBBD00190115 /* DNSSDRegistration.m */,
+			);
+			path = BDAirPlayManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		923AD1171D75A90400190115 /* BDAirPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 923AD1451D75A90400190115 /* Build configuration list for PBXNativeTarget "BDAirPlay" */;
+			buildPhases = (
+				923AD1141D75A90400190115 /* Sources */,
+				923AD1151D75A90400190115 /* Frameworks */,
+				923AD1161D75A90400190115 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BDAirPlay;
+			productName = BDAirPlay;
+			productReference = 923AD1181D75A90400190115 /* BDAirPlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		923AD1301D75A90400190115 /* BDAirPlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 923AD1481D75A90400190115 /* Build configuration list for PBXNativeTarget "BDAirPlayTests" */;
+			buildPhases = (
+				923AD12D1D75A90400190115 /* Sources */,
+				923AD12E1D75A90400190115 /* Frameworks */,
+				923AD12F1D75A90400190115 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				923AD1331D75A90400190115 /* PBXTargetDependency */,
+			);
+			name = BDAirPlayTests;
+			productName = BDAirPlayTests;
+			productReference = 923AD1311D75A90400190115 /* BDAirPlayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		923AD13B1D75A90400190115 /* BDAirPlayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 923AD14B1D75A90400190115 /* Build configuration list for PBXNativeTarget "BDAirPlayUITests" */;
+			buildPhases = (
+				923AD1381D75A90400190115 /* Sources */,
+				923AD1391D75A90400190115 /* Frameworks */,
+				923AD13A1D75A90400190115 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				923AD13E1D75A90400190115 /* PBXTargetDependency */,
+			);
+			name = BDAirPlayUITests;
+			productName = BDAirPlayUITests;
+			productReference = 923AD13C1D75A90400190115 /* BDAirPlayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		929228CC1D78444500CF212B /* BDAirPlay-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 929228FA1D78444500CF212B /* Build configuration list for PBXNativeTarget "BDAirPlay-Mac" */;
+			buildPhases = (
+				929228C91D78444500CF212B /* Sources */,
+				929228CA1D78444500CF212B /* Frameworks */,
+				929228CB1D78444500CF212B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BDAirPlay-Mac";
+			productName = "BDAirPlay-Mac";
+			productReference = 929228CD1D78444500CF212B /* BDAirPlay-Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		929228E11D78444500CF212B /* BDAirPlay-MacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 929228FB1D78444500CF212B /* Build configuration list for PBXNativeTarget "BDAirPlay-MacTests" */;
+			buildPhases = (
+				929228DE1D78444500CF212B /* Sources */,
+				929228DF1D78444500CF212B /* Frameworks */,
+				929228E01D78444500CF212B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				929228E41D78444500CF212B /* PBXTargetDependency */,
+			);
+			name = "BDAirPlay-MacTests";
+			productName = "BDAirPlay-MacTests";
+			productReference = 929228E21D78444500CF212B /* BDAirPlay-MacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		929228EC1D78444500CF212B /* BDAirPlay-MacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 929228FC1D78444500CF212B /* Build configuration list for PBXNativeTarget "BDAirPlay-MacUITests" */;
+			buildPhases = (
+				929228E91D78444500CF212B /* Sources */,
+				929228EA1D78444500CF212B /* Frameworks */,
+				929228EB1D78444500CF212B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				929228EF1D78444500CF212B /* PBXTargetDependency */,
+			);
+			name = "BDAirPlay-MacUITests";
+			productName = "BDAirPlay-MacUITests";
+			productReference = 929228ED1D78444500CF212B /* BDAirPlay-MacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		923AD1101D75A90400190115 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = fanzhikang;
+				TargetAttributes = {
+					923AD1171D75A90400190115 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4G7T6JUJF6;
+					};
+					923AD1301D75A90400190115 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4G7T6JUJF6;
+						TestTargetID = 923AD1171D75A90400190115;
+					};
+					923AD13B1D75A90400190115 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4G7T6JUJF6;
+						TestTargetID = 923AD1171D75A90400190115;
+					};
+					929228CC1D78444500CF212B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					929228E11D78444500CF212B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 929228CC1D78444500CF212B;
+					};
+					929228EC1D78444500CF212B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 929228CC1D78444500CF212B;
+					};
+				};
+			};
+			buildConfigurationList = 923AD1131D75A90400190115 /* Build configuration list for PBXProject "BDAirPlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 923AD10F1D75A90400190115;
+			productRefGroup = 923AD1191D75A90400190115 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				923AD1171D75A90400190115 /* BDAirPlay */,
+				923AD1301D75A90400190115 /* BDAirPlayTests */,
+				923AD13B1D75A90400190115 /* BDAirPlayUITests */,
+				929228CC1D78444500CF212B /* BDAirPlay-Mac */,
+				929228E11D78444500CF212B /* BDAirPlay-MacTests */,
+				929228EC1D78444500CF212B /* BDAirPlay-MacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		923AD1161D75A90400190115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923AD12B1D75A90400190115 /* LaunchScreen.storyboard in Resources */,
+				923AD1281D75A90400190115 /* Assets.xcassets in Resources */,
+				923AD1261D75A90400190115 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923AD12F1D75A90400190115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923AD13A1D75A90400190115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929228CB1D78444500CF212B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929228D91D78444500CF212B /* Assets.xcassets in Resources */,
+				929228DC1D78444500CF212B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929228E01D78444500CF212B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929228EB1D78444500CF212B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		923AD1141D75A90400190115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923AD1521D75AD6600190115 /* BDAirPlayManager.m in Sources */,
+				923AD1581D76BBBD00190115 /* DNSSDRegistration.m in Sources */,
+				923AD1231D75A90400190115 /* ViewController.m in Sources */,
+				923AD1201D75A90400190115 /* AppDelegate.m in Sources */,
+				923AD11D1D75A90400190115 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923AD12D1D75A90400190115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923AD1361D75A90400190115 /* BDAirPlayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923AD1381D75A90400190115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923AD1411D75A90400190115 /* BDAirPlayUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929228C91D78444500CF212B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929228FF1D78456900CF212B /* BDAirPlayManager.m in Sources */,
+				929229001D78456C00CF212B /* DNSSDRegistration.m in Sources */,
+				929228D71D78444500CF212B /* ViewController.m in Sources */,
+				929228D41D78444500CF212B /* main.m in Sources */,
+				929228D11D78444500CF212B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929228DE1D78444500CF212B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929228E71D78444500CF212B /* BDAirPlay_MacTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929228E91D78444500CF212B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929228F21D78444500CF212B /* BDAirPlay_MacUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		923AD1331D75A90400190115 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 923AD1171D75A90400190115 /* BDAirPlay */;
+			targetProxy = 923AD1321D75A90400190115 /* PBXContainerItemProxy */;
+		};
+		923AD13E1D75A90400190115 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 923AD1171D75A90400190115 /* BDAirPlay */;
+			targetProxy = 923AD13D1D75A90400190115 /* PBXContainerItemProxy */;
+		};
+		929228E41D78444500CF212B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 929228CC1D78444500CF212B /* BDAirPlay-Mac */;
+			targetProxy = 929228E31D78444500CF212B /* PBXContainerItemProxy */;
+		};
+		929228EF1D78444500CF212B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 929228CC1D78444500CF212B /* BDAirPlay-Mac */;
+			targetProxy = 929228EE1D78444500CF212B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		923AD1241D75A90400190115 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				923AD1251D75A90400190115 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		923AD1291D75A90400190115 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				923AD12A1D75A90400190115 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		929228DA1D78444500CF212B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				929228DB1D78444500CF212B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		923AD1431D75A90400190115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		923AD1441D75A90400190115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		923AD1461D75A90400190115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = BDAirPlay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BDAirPlay",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.fanzhikang.BDAirPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		923AD1471D75A90400190115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = BDAirPlay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BDAirPlay",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.fanzhikang.BDAirPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		923AD1491D75A90400190115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BDAirPlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.fanzhikang.BDAirPlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BDAirPlay.app/BDAirPlay";
+			};
+			name = Debug;
+		};
+		923AD14A1D75A90400190115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BDAirPlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.fanzhikang.BDAirPlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BDAirPlay.app/BDAirPlay";
+			};
+			name = Release;
+		};
+		923AD14C1D75A90400190115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BDAirPlayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.fanzhikang.BDAirPlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BDAirPlay;
+			};
+			name = Debug;
+		};
+		923AD14D1D75A90400190115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BDAirPlayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.fanzhikang.BDAirPlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BDAirPlay;
+			};
+			name = Release;
+		};
+		929228F41D78444500CF212B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "BDAirPlay-Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.fanzhikang.BDAirPlay-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		929228F51D78444500CF212B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "BDAirPlay-Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.fanzhikang.BDAirPlay-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		929228F61D78444500CF212B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "BDAirPlay-MacTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.fanzhikang.BDAirPlay-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BDAirPlay-Mac.app/Contents/MacOS/BDAirPlay-Mac";
+			};
+			name = Debug;
+		};
+		929228F71D78444500CF212B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "BDAirPlay-MacTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.fanzhikang.BDAirPlay-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BDAirPlay-Mac.app/Contents/MacOS/BDAirPlay-Mac";
+			};
+			name = Release;
+		};
+		929228F81D78444500CF212B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "BDAirPlay-MacUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.fanzhikang.BDAirPlay-MacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_TARGET_NAME = "BDAirPlay-Mac";
+			};
+			name = Debug;
+		};
+		929228F91D78444500CF212B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "BDAirPlay-MacUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.fanzhikang.BDAirPlay-MacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_TARGET_NAME = "BDAirPlay-Mac";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		923AD1131D75A90400190115 /* Build configuration list for PBXProject "BDAirPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923AD1431D75A90400190115 /* Debug */,
+				923AD1441D75A90400190115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		923AD1451D75A90400190115 /* Build configuration list for PBXNativeTarget "BDAirPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923AD1461D75A90400190115 /* Debug */,
+				923AD1471D75A90400190115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		923AD1481D75A90400190115 /* Build configuration list for PBXNativeTarget "BDAirPlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923AD1491D75A90400190115 /* Debug */,
+				923AD14A1D75A90400190115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		923AD14B1D75A90400190115 /* Build configuration list for PBXNativeTarget "BDAirPlayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923AD14C1D75A90400190115 /* Debug */,
+				923AD14D1D75A90400190115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		929228FA1D78444500CF212B /* Build configuration list for PBXNativeTarget "BDAirPlay-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929228F41D78444500CF212B /* Debug */,
+				929228F51D78444500CF212B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		929228FB1D78444500CF212B /* Build configuration list for PBXNativeTarget "BDAirPlay-MacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929228F61D78444500CF212B /* Debug */,
+				929228F71D78444500CF212B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		929228FC1D78444500CF212B /* Build configuration list for PBXNativeTarget "BDAirPlay-MacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929228F81D78444500CF212B /* Debug */,
+				929228F91D78444500CF212B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 923AD1101D75A90400190115 /* Project object */;
+}
